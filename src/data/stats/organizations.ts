@@ -12,12 +12,12 @@ export interface Organization {
 
 export const orgs: Organization[] = [
   {
-    id: '1jUKFYm03vwC67P9mbKhGV8icIMgy5vLNMaCS9EQ0kWk',
-    name: 'Народное содружество',
-    city: 'Kyiv',
+    id: '1cB442VJ8YNK51i9eF9Vbn98-HhPuFI1RgSIqBvtthKs',
+    name: 'Волонтери Чернівців',
+    city: 'Chernivtsi',
     contacts: {
-      phone: '+38 (088) 888-88-88',
-      address: 'st. some_facebook',
+      phone: '+38 (096) 981-71-82',
+      address: 'Головна, 41',
       facebook: 'some_facebook',
       telegram: 'some_telegram',
     },

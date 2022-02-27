@@ -1,1 +1,1 @@
-export const cities = ['Kyiv'];
+export const cities = ['Chernivtsi'];
