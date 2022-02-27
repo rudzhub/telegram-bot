@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { google } from 'googleapis';
+
 @Injectable()
-export class AppService {
-  async getHello(tableId: string) {
+export class DataService {
+  async getOrgData(tableId: string) {
     const auth = new google.auth.JWT(
       'telegram@folderly-app.iam.gserviceaccount.com',
       undefined,
