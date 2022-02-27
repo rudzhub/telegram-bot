@@ -5,9 +5,7 @@ import { bot } from './bot';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  try {
-    await bot.launch();
-  } catch {}
+  await bot.launch();
 
   await app.listen(process.env.PORT || 5000);
 }
